@@ -5,13 +5,7 @@ void init_font(sf::Font *font);
 void init_game_over_text(sf::Text *text, sf::Font *font);
 bool is_keyboard_blocked();
 
-// Release key event can handle only in main event loop
-// Add Score text on the top
-// Add Pause text in the pause state
-// Add Visible borders ?
-// Add Log system
-// apple taking adjust
-// if I just press 'space' continually while playing it restarts after game over immediatelly
+
 int main()
 {
     srand(time(0));
