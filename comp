@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Compiling!"
+
+FILENAMES='main.cpp snake.cpp apple.cpp board.cpp'
+
+g++ $FILENAMES -o snake -lsfml-graphics -lsfml-window -lsfml-system
